@@ -1,0 +1,23 @@
+.messageAuthor {
+    margin-right: '0.5em';
+    font-size: '12pt';
+    padding-top: 5;
+};
+
+.messageContent {
+    padding: '18px';
+    border-radius: '10px';
+    max-width: '80%';
+}
+
+.transmitter {
+    background: 'blue';
+    color: 'white';
+}
+
+.receiver {
+    background: '#95F0B8';
+    color: 'black';
+}
+/* background: user === messageUser ? 'blue' : '#95F0B8',
+color: user === messageUser ? 'white' : 'black', */
