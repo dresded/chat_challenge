@@ -193,25 +193,27 @@ const Provider = () => {
 
 const styles = {
   messageAuthor: {
-    marginRight: '0.5em',
-    fontSize: '12pt',
-    paddingTop: 5
+    fontSize: '1.5em',
+    paddingTop: 5,
+    color: '#7184a3',
+    textTransform: 'capitalize'
   },
 
   messageContent: {
-    padding: '18px',
+    padding: '8px 25px',
     borderRadius: '10px',
-    maxWidth: '80%'
+    maxWidth: '80%',
+    textAlign: 'left'
   },
 
   transmitter: {
-    background: 'blue',
+    background: '#396ec4',
     color: 'white'
   },
 
   receiver: {
-    background: '#95F0B8',
-    color: 'black'
+    background: '#919fb5',
+    color: 'white'
   },
 
   bottomContainer: {
